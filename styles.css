@@ -1,1 +1,41 @@
 /* Write your CSS here! */
+header {
+  
+  /* Apply styles to all headings within the header */
+  header h1, header h2, header h3, header h4, header h5, header h6 {
+    color: darkblue; 
+    text-align: center;
+  }
+}
+
+  body {
+    background-color: lightblue;
+  }
+  
+  /* Apply styles to all headings */
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center; /* Center all headings */
+    color: darkblue; /* Set the color of all headings to dark blue */
+  }
+  
+  /* Apply styles to all text within the body */
+  body {
+    margin: 20px;
+    color: darkblue; /* Set the color of all text within the body to dark blue */
+  }
+  .photo-scroll {
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Make sure all images display in a single row */
+  }
+  .my-image {
+    width: 400px; /* Set the width of the image to 400 pixels */
+    height: 300px; /* Set the height of the image to 300 pixels */
+  }
+  .photo-scroll img {
+    display: inline-block; 
+    align-items: center;
+    width: 250px; /* Set the width of each image as desired */
+    height: 200px; /* Set the height of each image as desired */
+    margin-right: 20px; /* Add some spacing between each image */
+  }
+  
