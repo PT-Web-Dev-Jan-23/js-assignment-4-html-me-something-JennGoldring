@@ -1,1 +1,112 @@
-/* Write your CSS here! */
+/* Global styles */
+
+body {
+  background-color: lightblue;
+  color: darkblue; 
+  margin: 8px;
+  display: block;
+  
+}
+
+h2, h3, h4, h5, h6 {
+  text-align: center; 
+  color: darkblue; 
+}
+
+/* Header styles */
+
+header {
+  text-align: center;
+}
+.header h2 {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+header h1 {
+  font-size: 3.5em;
+}
+
+header h2, header h3, header h4, header h5, header h6 {
+  color: darkblue; 
+  text-align: center;
+}
+
+#mainHeading {
+  color: red;
+}
+
+/* Main content styles */
+
+main h2 {
+  padding: 0.625em 0 0.625em 0.625em;
+}
+
+article {
+  text-align: justify;
+  margin: 0 10%;
+}
+
+section {
+  margin: 1.875em 0;
+}
+
+.my-image {
+  width: 400px; 
+  height: 300px; 
+  box-align: center
+}
+
+.photo-scroll img {
+  display: inline-block; 
+  align-items: center;
+  width: 250px; 
+  height: 200px; 
+  margin-right: 20px; 
+  overflow-x: scroll; 
+  white-space: nowrap; 
+}
+
+.photo-scroll2 img {
+  display: inline-block; 
+  align-items: center;
+  width: 200px; 
+  height: 200px; 
+  margin-right: 10px; 
+}
+
+.funParagraph {
+  color: green;
+  /*margin: 5%;
+  text-align: center;*/
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+.image-container {
+  background-image: url("imgages/bird003.jpg");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
