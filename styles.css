@@ -80,8 +80,8 @@ section {
 
 .funParagraph {
   color: green;
-  margin: 5%;
-  text-align: center;
+  /*margin: 5%;
+  text-align: center;*/
 }
 
 hr.rounded {
